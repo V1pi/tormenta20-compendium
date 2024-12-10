@@ -3,7 +3,6 @@
   "title": "Compendium Extra T20",
   "description": "Um compendium extra, com mais conteúdo para Tormenta20!",
   "version": "2.7.0",
-  "author": "MateusMarochi; V. Kull4ck",
   "authors": [
      {
       "name": "V. Kullack",
@@ -16,26 +15,29 @@
       "url": "https://github.com/MateusMarochi"
     }
   ],
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibility": {
+      "minimum": "12",
+      "verified": "12",
+      "maximum": "12"
+  },
   "packs": [
     {
       "name": "guia-de-npcs",
       "label": "Guia de NPCs",
       "system": "tormenta20",
       "path": "packs/guia-de-npcs.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "jornada-heroica",
       "label": "Jornada Heroica",
       "system": "tormenta20",
       "path": "packs/jornada-heroica.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "label": "Dragão Brasil",
-      "entity": "Actor",
+      "type": "Actor",
       "name": "dragao-brasil",
       "path": "packs/dragao-brasil.db",
       "system": "tormenta20"
@@ -45,17 +47,17 @@
       "label": "Equipamentos-extra",
       "system": "tormenta20",
       "path": "packs/equipamentos-extra.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "poderes-extra",
       "label": "Poderes-extra",
       "system": "tormenta20",
       "path": "packs/poderes-extra.db",
-      "entity": "Item"
+      "type": "Item"
     }
   ],
-  "url": "https://github.com/Kull4ck/tormenta20-compendium",
-  "manifest": "https://raw.githubusercontent.com/Kull4ck/tormenta20-compendium/master/module.json",
-  "download": "https://github.com/Kull4ck/tormenta20-compendium/archive/master.zip"
+  "url": "https://github.com/V1pi/tormenta20-compendium",
+  "manifest": "https://raw.githubusercontent.com/V1pi/tormenta20-compendium/master/module.json",
+  "download": "https://github.com/V1pi/tormenta20-compendium/archive/master.zip"
 }
